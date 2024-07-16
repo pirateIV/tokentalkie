@@ -1,3 +1,3 @@
-import configureBot from "../bot";
+import configureBot from "./bot";
 
 configureBot();

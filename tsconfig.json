@@ -7,6 +7,6 @@
       "sourceMap": true,
       "noImplicitAny": true
     },
-    "include": ["src/**/*", "bot.ts"]
+    "include": ["src/**/*", "src/bot.ts"]
   }
   
