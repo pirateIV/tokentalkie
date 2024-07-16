@@ -59,6 +59,7 @@ export default async function getTokenInfo(
 
     bot.sendMessage(chatId, message, { parse_mode: "HTML" });
   } catch (error) {
-    return bot.sendMessage(chatId, "Please, try again later");
+    console.log(error);
+    // return bot.sendMessage(chatId, "Please, try again later");
   }
 }
