@@ -1,0 +1,12 @@
+{
+    "compileOptions": {
+      "module": "NodeNext",
+      "moduleResolution": "node",
+      "baseUri": "src",
+      "outDir": "dist",
+      "sourceMap": true,
+      "noImplicitAny": true
+    },
+    "include": ["src/**/*", "bot.ts"]
+  }
+  
